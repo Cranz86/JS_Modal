@@ -14,3 +14,27 @@
 	margin: 100px auto;
 	height: 200px;
 }
+
+.modal-header {
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #eee;
+}
+
+.modal-title {
+	font-size: 1.5em;
+}
+
+.modal-close {
+	cursor: pointer;
+}
+
+.modal-body {
+	padding: 10px;
+}
+
+.modal-footer {
+	padding: 5px 10px;
+	border-top: 1px solid #eee;
+}
